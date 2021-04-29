@@ -1,7 +1,7 @@
 let db;
 
 //create an indexDB instance with this name
-const request = indexedDB.open("budgettrack", 1);
+const request = indexedDB.open("budget", 1);
 
 //upgrade instance when version number increases
 request.onupgradeneeded = function (event) {
